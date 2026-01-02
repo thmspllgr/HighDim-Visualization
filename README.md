@@ -4,11 +4,6 @@
 ## Repo structure
 
 ```
-data
-├── imagenette2-160         # folder containing data from Imagenette v2
-├── KMNIST                  # folder containing data from KMNIST
-├── MNIST                   # folder containing data from MNIST
-└── imagenette2-160.tgz     # archive to extract Imagenette data
 exp0.ipynb                  # notebook for experiment 0
 exp1.ipynb                  # notebook for experiment 1
 exp2.ipynb                  # notebook for experiment 2
@@ -55,7 +50,7 @@ MNIST-trained ResNet18 projected onto KMNIST to visualize out-of-distribution be
 
 ## Usage
 
-Download/clone the repo and run each notebook entirely to execute the associated experiment. All of them are independent and can be executed separately. All necessary data is already given in the `data` folder, but each experiment already handles missing data by downloading it automatically when needed.
+Download/clone the repo and run each notebook entirely to execute the associated experiment. All of them are independent and can be executed separately. Each experiment handles missing data by downloading it automatically when needed and storing it in a folder named ```data``` by default in your working directory.
 
 ## Additional notes
 
