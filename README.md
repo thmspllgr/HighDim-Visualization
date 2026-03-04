@@ -1,5 +1,6 @@
-
 # High Dimensionality Visualization
+
+This repository contains several notebooks which aim to use UMAP visualization. It was created as a part of my second year of Master, and the results obtained were shared in a written report as well as an oral presentation.
 
 ## Repo structure
 
