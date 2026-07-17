@@ -2,6 +2,23 @@
 
 > A series of experiments using UMAP visualization, written using Jupyter notebooks with PyTorch.
 
+<p align="center">
+  <img src="assets/net18.png" width="75%" alt="ResNet18 features maps">
+</p>
+
+<p align="center">
+  <em>UMAP projection of the last features map of an untrained ResNet18 (left) VS trained ResNet18 (right) on MNIST classes</em>
+</p>
+
+<p align="center">
+  <img src="assets/net50.png" height="250" alt="ResNet50 features map">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/errs.png" height="250" alt="ResNet50 top errors">
+</p>
+
+<p align="center">
+  <em>UMAP projection of the last features map of a ResNet50 trained on Imagenette (left) and its top 3 errors by confidence (right)</em>
+</p>
+
 ## About this project
 
 This project was developed as part of my second year of Master's degree. Its goal is to explore the visualization of high-dimensional data and the evolution of neural network latent spaces using UMAP. The idea here is to highlight *what* the models actually learn through training rather than just how they perform like it is usually the case.
@@ -50,6 +67,7 @@ The project is divided into 6 Jupyter notebooks, each focusing on a specific exp
 
 ```text
 HighDim-Visualization/
+├── assets/
 ├── exp0.ipynb
 ├── exp1.ipynb
 ├── exp2.ipynb
