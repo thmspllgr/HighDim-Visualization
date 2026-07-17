@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <img src="assets/net50.png" height="250" alt="ResNet50 features map">&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/errs.png" height="250" alt="ResNet50 top errors">
+  <img src="assets/net50.png" height="200" alt="ResNet50 features map">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/errs.png" height="200" alt="ResNet50 top errors">
 </p>
 
 <p align="center">
